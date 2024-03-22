@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #030F21;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+header{
+    height: 100px;
+    background-color: #05072F;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.fecaf{
+    color: red;
+    height: 40%;
+}
+
+span{
+    color: white;
+    height: 40%;
+}
+
+.menu{
+    margin: 20px;
+}
+
+.help{
+    margin: 10px;
+}
+
+.item{
+    margin: 10px;
+    color: red;
+}
+
+.login{
+    margin: 10px;
+}
+
+.account{
+    color: red;
+}
+
+.music{
+    font-size: 100px;
+    color: red;
+    margin-left: 100px;
+}
+
+.texto{
+    max-width: 50%;
+    height: auto;
+    gap: 25px;
+}
+
+.img{
+    width: 50%;
+    height: 100%;
+    background-image: url(../imgs/image.png);
+    background-size: cover;
+}
+
+h3{
+    margin-left: 100px;
+    color: white;
+    margin-top: 30px;
+    text-align: justify;
+    margin-bottom: 70px;
+}
+
+.btn{
+    top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+    justify-content: center;
+
+}
+.btn1{
+    color: white;
+    background: red;
+    width: 100px;
+    height: 6vh;
+    padding: 22px 85px 20px 22px;
+    border-radius: 30px;
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    white-space: nowrap;
+    text-align: center;
+}
+.btn2{
+    color: white;
+    background: purple;
+    width: 100px;
+    height: 6vh;
+    padding: 22px 85px 20px 22px;
+
+    border-radius: 30px;
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.btn1:hover{
+    background: rgb(223, 102, 102);
+    transition: background 1s;
+}
+.btn2:hover{
+    background: #ee49c5;
+    transition: background 1s;
+}
+footer{
+    height: 70px;
+    display: flex;
+    background-color: #05072F;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
